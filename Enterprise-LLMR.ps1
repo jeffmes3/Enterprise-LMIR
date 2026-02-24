@@ -1,4 +1,4 @@
-#Requires -Version 5.1
+# Requires -Version 5.1
 <#
 ===============================================================================
 Enterprise IR: Lateral Movement Visibility (Open Source)
@@ -1590,3 +1590,4 @@ Write-Host "Outputs saved to:"
 Write-Host ("  {0}" -f $RunRoot)
 
 Write-Host "Done."
+
