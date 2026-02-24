@@ -5,6 +5,7 @@ Enterprise IR: Lateral Movement Visibility (Open Source)
 Script: Enterprise-LMIR.ps1
 Version: 6.0
 License: MIT
+Author:Jeffrey Misquita
 Compatibility: Windows PowerShell 5.1 (Windows 10/11, Server 2016/2019/2022)
 Targets: Workgroup + Domain-joined environments
 Remoting: WinRM/PowerShell Remoting (Kerberos preferred), optional CredSSP
@@ -1587,4 +1588,5 @@ else {
 Write-Host ""
 Write-Host "Outputs saved to:"
 Write-Host ("  {0}" -f $RunRoot)
+
 Write-Host "Done."
